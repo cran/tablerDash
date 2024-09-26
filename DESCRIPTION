@@ -1,7 +1,7 @@
 Package: tablerDash
 Type: Package
 Title: 'Tabler' API for 'Shiny'
-Version: 0.1.0
+Version: 0.1.5
 Authors@R: c(
   person("David", "Granjon", email = "dgranjon@ymail.com", role = c("aut", "cre")),
   person(family = "RinteRface", role = "cph"),
@@ -11,22 +11,21 @@ Maintainer: David Granjon  <dgranjon@ymail.com>
 Description: 'R' interface to the 'Tabler' HTML template. See more here <https://tabler.io>. 
     'tablerDash' is a light 'Bootstrap 4' dashboard template. There are different 
      layouts available such as a one page dashboard or a multi page template,
-     where the navigation menu is contained in the navigation bar. A fancy example
-     is available at <https://dgranjon.shinyapps.io/shinyMons/>.
+     where the navigation menu is contained in the navigation bar.
 URL: https://rinterface.github.io/tablerDash/,
         https://github.com/RinteRface/tablerDash/
 BugReports: https://github.com/RinteRface/tablerDash/issues
-Imports: shiny, htmltools, knitr
-Suggests: shinyWidgets, shinyEffects, echarts4r
+Imports: shiny, htmltools
+Suggests: shinyWidgets, shinyEffects, echarts4r, knitr
 License: GPL (>= 2)
 Encoding: UTF-8
-LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.3.2
+Depends: R (>= 2.10)
 NeedsCompilation: no
-Packaged: 2019-03-07 10:16:45 UTC; macdavidgranjon
+Packaged: 2024-09-26 20:06:42 UTC; davidgranjon
 Author: David Granjon [aut, cre],
   RinteRface [cph],
   codecalm [ctb, cph] (tabler template for Bootstrap 4),
   Winston Chang [ctb, cph] (Utils functions from shinydashboard)
 Repository: CRAN
-Date/Publication: 2019-03-08 16:00:03 UTC
+Date/Publication: 2024-09-26 20:20:02 UTC
